@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="..\static\css\login.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body >
+	<div class="container">
+
+		<div class="img">
+			<div id="png"><a href="/" title="HOME"><img style="width:75px; height:75px ; " src="..\static\images\home-page.png"></a></div>
+			<img src="..\static\images\bg.svg">
+		</div>
+
+
+		<div class="login-content">
+
+			<form action="/login" method="post">
+				<div class="msg">{{ msg }}</div>
+				<div class="mb-3">
+					<input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="username" name="username" placeholder="username" type="text">
+				</div>
+				<div class="mb-3">
+					<input class="form-control mx-auto w-auto" id="password" name="password" placeholder="password" type="password">
+				</div>
+				<button class="btn btn-primary" type="submit">Log In</button>
+			</form>
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="..\static\js\login.js"></script>
+</body>
+</html>

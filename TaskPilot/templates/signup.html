@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sign-up</title>
+        <link href="..\static\css\signup.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        <!--container---------------------->
+        <div class="container" >
+            <!--sign-up-box-container--->
+            <div class="sign-up">
+
+            <div id="png">
+                <a href="/" title="HOME"><img style="width:55px; height:55px ; " src="..\static\images\home-page.png"></a>
+            </div>
+            <!--heading-->
+            <form action="/register" method="post">
+                <div class="msg">{{ msg }}</div>
+                <div class="mb-3">
+                    <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="username" name="username" placeholder="username" type="text">
+                </div>
+                <div class="mb-3">
+                    <input class="form-control mx-auto w-auto" id="password" name="password" placeholder="password" type="password">
+                </div>
+                <button class="btn btn-primary" type="submit">Register</button>
+            </form>
+        <!--sign-in-->
+            <div class="t">
+                <p class="conditions" id="p3">Already have an account <a href="/signin">Sign in</a></p>
+            </div>
+        </div>
+    </body>
+</html>

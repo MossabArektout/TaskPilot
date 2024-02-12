@@ -1,0 +1,32 @@
+/* custom.css */
+
+/* Add your custom CSS styles here */
+.navbar-brand {
+    font-weight: bold;
+  }
+
+  .navbar-nav .nav-link {
+    color: #333;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+
+  .dropdown-menu {
+    min-width: 10rem;
+  }
+
+  .dropdown-menu .dropdown-item {
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+  }
+
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa;
+  }
+
+  .container {
+    margin-top: 20px;
+  }
+  
