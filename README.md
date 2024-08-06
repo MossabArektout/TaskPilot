@@ -1,7 +1,7 @@
 
 # TaskPilot : Your Task Management Companion
 
-CS, python, flask, flask web framework, web development
+CS50, python, flask, flask web framework, web development
 
 This is a Task Manager Web application
 
